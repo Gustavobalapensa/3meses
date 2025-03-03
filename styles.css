@@ -1,0 +1,53 @@
+/* Definindo a fonte 'Poppins' para todo o corpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+    color: #d63384;
+    padding: 20px;
+}
+
+/* Container com bordas arredondadas e sombra */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 32px;  /* Tamanho maior para o título */
+    font-weight: 600;
+}
+
+/* Imagem com borda arredondada e escondida até ser clicada */
+img {
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+    margin-top: 10px;
+}
+
+/* Legenda e contador escondidos inicialmente */
+.legenda, .contador {
+    display: none;
+    margin-top: 10px;
+    font-size: 18px;  /* Tamanho maior para o texto */
+    color: #333;
+}
+
+/* Estilo para o botão */
+.button {
+    display: inline-block;
+    padding: 12px 25px;  /* Botão um pouco maior */
+    margin: 10px;
+    background-color: #d63384;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;  /* Aumentando o tamanho da fonte do botão */
+}
